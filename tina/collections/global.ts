@@ -15,7 +15,7 @@ export const global: Collection = {
       name: "logo",
     },
     {
-      type: "image",
+      type: "string",
       label: "Title",
       name: "title",
     },

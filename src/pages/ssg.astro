@@ -1,5 +1,6 @@
 ---
-export const prefetch = false;
+export const prerender = true;
+
 import client from "../../tina/__generated__/client";
 const global = await client.queries.global({ relativePath: "index.json" });
 ---
