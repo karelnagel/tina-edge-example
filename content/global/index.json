@@ -1,4 +1,5 @@
 {
   "image": "/food.jpg",
-  "title": "Hello world"
+  "title": "/food.jpg",
+  "logo": "/food.jpg"
 }
