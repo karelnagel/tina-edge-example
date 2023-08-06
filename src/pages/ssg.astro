@@ -1,0 +1,7 @@
+---
+export const prefetch = true;
+import client from "../../tina/__generated__/client";
+const global = await client.queries.global({ relativePath: "index.json" });
+---
+
+<p class="bg-blue-100 text-lg">{JSON.stringify(global, null, 2)}</p>
